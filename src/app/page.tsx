@@ -48,9 +48,9 @@ export default function Home() {
 
   if (loading)
     return (
-      <p>
-        <Loader />
-      </p>
+      <div>
+        <Loader/>
+      </div>
     );
 
   return (

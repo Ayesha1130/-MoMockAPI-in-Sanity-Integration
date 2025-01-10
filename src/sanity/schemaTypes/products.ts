@@ -1,5 +1,4 @@
-
-const products ={
+const products = {
   name: 'product',
   type: 'document',
   title: 'Product',
