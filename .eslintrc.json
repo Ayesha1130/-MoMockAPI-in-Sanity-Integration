@@ -1,3 +1,11 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"]
+  "extends": [
+    "next/core-web-vitals", 
+    "next/typescript"
+  ],
+  "rules": {
+    "no-unused-vars": "warn",  // Unused variables pe warning show ho gi
+   
+    "import/no-anonymous-default-export": "warn"  // Anonymous default exports pe warning
+  }
 }
